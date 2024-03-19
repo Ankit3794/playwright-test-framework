@@ -1,0 +1,23 @@
+{
+  "name": "playwright-test-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.29",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  }
+}
